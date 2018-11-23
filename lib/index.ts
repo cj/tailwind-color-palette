@@ -35,9 +35,9 @@ export = function (color: string, options: PaletteOptions = {}) {
 		const uiLightDarkInset = 0.25
 		addScaleToPalette('cta',     colorChroma.set('hsl.h', '+150'), uiScale, uiLightDarkInset)
 		addScaleToPalette('info',    mix('#3df', uiMix),               uiScale, uiLightDarkInset)
-		addScaleToPalette('warning', mix('#fd0', uiMix),               uiScale, uiLightDarkInset)
-		addScaleToPalette('success', mix('#3e4', uiMix),               uiScale, uiLightDarkInset)
-		addScaleToPalette('danger',  mix('#f34', uiMix),               uiScale, uiLightDarkInset)
+		addScaleToPalette('warn', mix('#fd0', uiMix),               uiScale, uiLightDarkInset)
+		addScaleToPalette('pass', mix('#3e4', uiMix),               uiScale, uiLightDarkInset)
+		addScaleToPalette('dang',  mix('#f34', uiMix),               uiScale, uiLightDarkInset)
 	}
 
 	// Greyscale
