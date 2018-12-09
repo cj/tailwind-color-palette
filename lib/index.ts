@@ -26,7 +26,7 @@ export = function (color: string, options: PaletteOptions = {}) {
 
 	// Primary color scale
 	const colorScale = [ '-darkest', '-darker', '-dark', '', '-light', '-lighter', '-lightest' ]
-	const colorInset = 0.125
+	const colorInset = 0.4
 	addScaleToPalette(name, colorChroma, colorScale, colorInset)
 
 	// UI Colors https://github.com/adevade/color-scheme-generator
